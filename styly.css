@@ -1,0 +1,98 @@
+/* CSS Document */
+body {
+  /* Typ písma bude Arial nebo sans-serif */
+  /* Barva pozadí bude světle šedá */
+}
+
+/* Selektor pro oddíl označený ID obal */ {
+  /* Maximální šířka 960 px */
+  /* Nastav okraje tak, aby byl blok obal na stránce vycentrován */
+  /* Ohraničení - plná šedá čára o tloušťce 1 pixel  */
+  /* Vnitřní odsazení - 20 pixelů */
+  /* Bílá barva pozadí */
+  /* Barva textu - tmavě šedý odstín, šestnáctkové hodnoty 3 */
+}
+
+/* Selektor pro značku nav */ {
+  background-color: #222;
+  margin: -20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 1.1em;
+  color: lightgray;
+}
+
+/* Pro všechny odkazy v bloku navigace */ {
+  padding: 19px;
+  /* Odkazy nebudou podtrženy */
+  color: lightgray;
+}
+
+/* Pro všechny odkazy v bloku navigace při přejetí kurzoru myši */ {
+  color: white;
+  background-color: rgb(0,153,204);
+}
+
+h1 {
+  /* Nadpis bude vycentrován */
+  /* Velikost nadpisu bude dvojnásobná vzhledem k základní velikosti písma */
+  /* Nadpis bude tučný */
+  /* Barva nadpisu bude totožná s barvou zvýrazněného odkazu */
+  /* Nadpis bude vypsán velkými písmeny */
+  /* Výška řádku nadpisu bude 2em */
+}
+
+/* Platí pro nadpisy h2 i h3 */ {
+  font-weight: 200; 
+  line-height: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+  color: rgb(102,153,0);
+}
+
+h3 { 
+  font-size: 1.2em;
+  /* Nadpisy budou podtrženy tenkou tečkovanou čarou, jejíž barva bude shodná s barvou písma */ 
+}
+
+p, li {
+  line-height: 1.5em;
+  /* Horní a spodní okraj odstavců i odrážek budou odsazeny o hodnotu 1em */
+}
+
+p {
+  /* Text odstavců bude zarovnán do bloku */
+}
+
+li {
+  /* Nastavte styl odrážek tak, aby odpovídal předloze (čtvercová odrážka) */
+  list-style-position: outside;
+  margin-left: 20px;
+}
+
+/* Nastavte pravidlo pro všechny tučně a modře zvýrazněné texty v odrážkách. */
+
+/* Nastavte pravidlo pro všechny odstavce-poznámky: 
+    * na levém okraji bude šedé ohraničení 10px silné
+    * text bude zleva odsazen o 50 pixelů
+    * použitý font bude o 10% menší než základní písmo
+    * písmo bude nakloněné (kurzíva)
+*/
+
+footer {
+  color: gray;
+  margin: 10px auto;
+  /* Zápatí bude zarovnáno na střed */
+  font-size: 80%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+/* Nastavte pravidla pro značky vložené do textu úvodního odstavce,
+   aby konečný vzheld textu odpovídal předloze. */
+
