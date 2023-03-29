@@ -91,6 +91,11 @@ footer {
 strong {
   font-weight: bold;
 }
+abbr{
+  
+  text-decoration:  underline dotted red;
+}
+
 
 
 /* Nastavte pravidla pro značky vložené do textu úvodního odstavce,

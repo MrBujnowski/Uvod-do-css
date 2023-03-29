@@ -64,35 +64,42 @@ p, li {
 }
 
 p {
-  /* Text odstavc� bude zarovn�n do bloku */
+  text-align: left;
 }
 
 li {
-  /* Nastavte styl odr�ek tak, aby odpov�dal p�edloze (�tvercov� odr�ka) */
+  list-style-type:square;
   list-style-position: outside;
   margin-left: 20px;
 }
 
 /* Nastavte pravidlo pro v�echny tu�n� a mod�e zv�razn�n� texty v odr�k�ch. */
 
-/* Nastavte pravidlo pro v�echny odstavce-pozn�mky: 
-    * na lev�m okraji bude �ed� ohrani�en� 10px siln�
-    * text bude zleva odsazen o 50 pixel�
-    * pou�it� font bude o 10% men�� ne� z�kladn� p�smo
-    * p�smo bude naklon�n� (kurz�va)
-*/
+
+div.poznamka{
+border-left: 10px solid gray;
+ padding-left: 50px;
+ font-size: 90%;
+ font-style: italic;
+}
 
 footer {
   color: gray;
   margin: 10px auto;
-  /* Z�pat� bude zarovn�no na st�ed */
+  text-align: center;
   font-size: 80%;
 }
 
 strong {
   font-weight: bold;
 }
-
+b {
+  color: rgb(0,153,204);
+  font-weight: bold;
+}
+mark{
+  background-color: rgb(102,153,0);
+}
 
 /* Nastavte pravidla pro zna�ky vlo�en� do textu �vodn�ho odstavce,
    aby kone�n� vzheld textu odpov�dal p�edloze. */
