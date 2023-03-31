@@ -99,6 +99,10 @@ b {
 }
 mark{
   background-color: rgb(102,153,0);
+  color: white;
+}
+abbr{
+  text-decoration: underline red dotted;
 }
 
 /* Nastavte pravidla pro zna�ky vlo�en� do textu �vodn�ho odstavce,
